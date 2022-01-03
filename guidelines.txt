@@ -1,0 +1,24 @@
+0. Official tutoarial # https://docs.djangoproject.com/en/4.0/intro/tutorial01/
+1. Create a virtual enviroment
+# https://docs.python.org/3/tutorial/venv.html
+2. create a django project:
+django-admin startproject mysite
+3. Realizar las migraciones necesarias, antes de poner a andar el project: 
+"python manage.py migrate"
+4. Para revisar el projecto funcionando en el servidor de pruebas:
+python manage.py : "python manage.py runserver"
+5. Se crean las app, tantas, como la lógica
+de la aplicación la considere necesaria.
+"python manage.py startapp polls"
+6 Configuración de la base de datos (tuto part 2)
+7. Los ccambios en la base de datos se realizan en
+models.py 
+con "python manage.py makemigrations" se crean las migraciones
+de los cambios realizados.
+8. con python manage.py migrate se guardan los cambios en la base de datos.
+9. Con python manage.py createsuperuser se crea el superusuario para administrar la app.
+ - superusuario: admin
+ - Clave: 123456
+ - mail: parabavireo@gmail.com 
+ 
+
