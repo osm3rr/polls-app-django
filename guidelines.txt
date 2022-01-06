@@ -20,5 +20,6 @@ de los cambios realizados.
  - superusuario: admin
  - Clave: 123456
  - mail: parabavireo@gmail.com 
- 
 
+10. Tutorial part 4: vistas generales en django
+11. Tutorial part 4: test in django
